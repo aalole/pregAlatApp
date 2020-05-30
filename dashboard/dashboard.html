@@ -45,11 +45,80 @@
                 <li><a href="../Preg_Alat_Profile_Page/create_profile.html"><i class="fas fa-link icon"></i>Profile</a>
                 </li>
                 <li><a href="../tips-page/tips.html"><i class="fas fa-stream icon"></i>tips/lifestyles</a></li>
-                <li><a href=""><i class="fas fa-calendar-week icon"></i>EDD</a></li>
+                <li id="edd"><a href=""><i class="fas fa-calendar-week icon"></i>EDD</a></li>
                 <li><a href="../about-Us/about.html"><i class="far fa-question-circle icon"></i>About</a></li>
                 <li><a href="../contactUs/contact.html"><i class="fas fa-user icon"></i>Need help?</a></li>
                 <li><a href="../index.html"><i class="fas fa-envelope icon"></i>sign out</a></li>
             </ul>
+        </div>
+        <div class="due-date">
+            <form id="dateValue" name="dateValue" method="post" action="javascript:;"
+                onSubmit="selectedDate(); return false;">
+                <div class="form-group">
+                    <label for="date">First day of your last period</label>
+                    <br>
+                    <select name="dayMonth">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+
+                    <select name="monthName">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sept</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+
+                    <select name="yearSelect">
+                        <option value="2018">2018</option>
+
+                        <option value="2018">2019</option>
+                        <option value="2020">2020</option>
+
+                    </select>
+                    <button type="submit" name="Submit" value="Submit">Submit</button>
+                </div>
+                <p>
+                    <textarea name="outputMessage" cols="50" rows="3"></textarea>
+                </p>
+            </form>
         </div>
         <section class="dash-main">
             <div class="service reminders">
@@ -99,6 +168,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="./dash.js"></script>
 </body>
 
 </html>

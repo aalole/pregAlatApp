@@ -6,7 +6,8 @@
 }
 
 /* ################## DASHBOARD HEADER ############# */
-#dash-header {
+#dash-header, 
+.due-date {
     display: none;
 }
 

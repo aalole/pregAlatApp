@@ -1,6 +1,3 @@
 # blaze-pregalat-frontend
 
-#This is a first page of PregAlat. It has a welcome teasing section and "Our services section that gives short preamble of the services offered by this app
-#For testing purposes, take note of the following
-#The hover effect on a)navigation menus at the header and footer section of the pages
-#The hover effect on the anchor elements that links the the respective services page
+pregAlat is an assistant app for pregnant ladies and women, that has two key features namely, Reminder (remind her of neccessary details like meals, drug and lifestyle as a mother to be throughout conception) and tracking features(that helps her track her delivery date, schedules, meetings and todos) respectively. This app solves the problem of temporary amnesia(memory loss) experienced by pregnant women during thier gestation.
