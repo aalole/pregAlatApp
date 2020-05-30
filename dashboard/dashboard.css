@@ -6,8 +6,14 @@
 }
 
 /* ################## DASHBOARD HEADER ############# */
-#dash-header, 
-.due-date {
+.due-date{
+    position: absolute;
+    top: 6%;
+    right: 60%;
+    display: none;
+    z-index: 200;
+}
+#dash-header{
     display: none;
 }
 
@@ -250,4 +256,27 @@ footer{
         margin-top: 0;
     }
     /* adding background image on big screens */
+}
+/* ####################DATE FORM ############################### */
+#date-form{
+    height: 200px;
+    max-width: 450px;
+    margin: 0 auto;
+    background: #031C32;
+    opacity: 0.9;
+}
+#date-form .form-group input{
+    width: 40px;
+    height: 30px;
+    padding: 15px;
+}
+.form-group{
+    text-align: center;
+}
+.form-group label{
+    color: #fff;
+    font-size: 1.3em;
+}
+.form-group  p textarea{
+    max-width: 300px;
 }

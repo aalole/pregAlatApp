@@ -14,7 +14,7 @@
     <script src="../assets/js/all.js"></script>
 </head>
 
-<body>
+<body class="dash-body">
     <header id="dash-header">
         <h3><img src="../assets/images/user-profile-img.png" alt="person.png"><span>Alaka Sofiyat</span></h3>
         <ul>
@@ -23,7 +23,7 @@
             <li><a href="../ToDo/index.html"><i class="fas fa-qrcode icon"></i>Add todo</a></li>
             <li><a href="../ToDo/index.html"><i class="fas fa-stream icon"></i>New Appointment</a></li>
             <li><a href="../tips-page/tips.html"><i class="fas fa-calendar-week icon"></i>lifestyles</a></li>
-            <li><a href=""><i class="far fa-question-circle icon"></i>Your EDD</a></li>
+            <li id="edd"><a href="#"><i class="far fa-question-circle icon"></i>Your EDD</a></li>
             <li><a href="../contactUs/contact.html"><i class="fas fa-user icon"></i>Need help?</a></li>
             <li><a href="../index.html"><i class="far fa-question-circle icon"></i>sign out</a></li>
         </ul>
@@ -45,13 +45,13 @@
                 <li><a href="../Preg_Alat_Profile_Page/create_profile.html"><i class="fas fa-link icon"></i>Profile</a>
                 </li>
                 <li><a href="../tips-page/tips.html"><i class="fas fa-stream icon"></i>tips/lifestyles</a></li>
-                <li id="edd"><a href=""><i class="fas fa-calendar-week icon"></i>EDD</a></li>
+                <li id="edd2"><a href="#"><i class="fas fa-calendar-week icon"></i>EDD</a></li>
                 <li><a href="../about-Us/about.html"><i class="far fa-question-circle icon"></i>About</a></li>
                 <li><a href="../contactUs/contact.html"><i class="fas fa-user icon"></i>Need help?</a></li>
                 <li><a href="../index.html"><i class="fas fa-envelope icon"></i>sign out</a></li>
             </ul>
         </div>
-        <div class="due-date">
+        <div class="edd-date due-date" id="date-form">
             <form id="dateValue" name="dateValue" method="post" action="javascript:;"
                 onSubmit="selectedDate(); return false;">
                 <div class="form-group">
@@ -134,8 +134,8 @@
                     <i class="fas fa-bell"></i>
                     <h3>expected delivery date</h3>
                 </div>
-                <h4>27/10/2020</h4>
-                <p> <strong>5 months 1 days to go</strong></p>
+                <!-- <h4>27/10/2020</h4> -->
+                <p> <strong id="edd-result">5 months 1 days to go</strong></p>
             </div>
             <div class="service lifestyles">
                 <div class="alert">
