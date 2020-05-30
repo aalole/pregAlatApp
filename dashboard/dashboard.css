@@ -264,6 +264,7 @@ footer{
     margin: 0 auto;
     background: #031C32;
     opacity: 0.9;
+    overflow-x: scroll;
 }
 #date-form .form-group input{
     width: 40px;
