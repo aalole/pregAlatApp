@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Create Your PregAlat Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <!--This is the header -->
+    <section class="header">
+        <div>
+            <header id="headerDiv">
+                <div id="navbar">
+                    <div class="logoHeader">
+                        <a href="../index.html"><img src="favicon.ico" alt="PregAlatlogo"></a>
+                    </div>
+                    <ul>
+                        <li><a href="../dashboard/dashboard.html"> Dashboard </a></li>
+                        <li><a href="../contactUs/contact.html"> Contact Us </a></li>
+                        <li><a href="#"> About </a> </li>
+                        <li><a href="../index.html"> Home </a> </li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+    </section>
+    <section class="formSection">
+        <div class="formCard p-5">
+            <div class="onboard mb-3 fff">
+                <h5> Create Your PregAlat Profile </h5>
+            </div>
+            <form id="forM" class="">
+                <div class="form-group">
+                    <input class="form-control px-3" type="text" id="fname" name="Full Name" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control px-3" type="text" id="email" name="Email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <input class="form-control px-3" type="text" id="pnumber" name="Phone Number"
+                        placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <input class="form-control px-3" type="text" id="tmester" name="Trimester Stage"
+                        placeholder="Enter your Trimester Value">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" name="prviouschildNumber" id="childNumber">
+                        <option value="Click" selected required>How many children have you had </option>
+                        <option value="none">None</option>
+                        <option value="one">One</option>
+                        <option value="moreOne">More Than One </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" name="rhesus status " id="rhesus">
+                        <option value="Click" selected required>What is your Rhesus status </option>
+                        <option value="positiveRhesus">Positive</option>
+                        <option value="negativeRhesus">Negative</option>
+                    </select> </div>
+                <div class="form-group">
+                    <select class="form-control " name="options" id="select">
+                        <option value="Click" selected required>How did you hear about us? (Optional)</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="insta">Instagram</option>
+                        <option value="reffr">Friend/Family/Coworker Referral</option>
+                        <option value="gsearch">Google search</option>
+                        <option value="gplay">Google playstore</option>
+                        <option value="blog">Online blog</option>
+                        <option value="Lnpaper">Local Newspaper</option>
+                        <option value="Osearch">Online search</option>
+                        <option value="other">Other</option>
+                    </select> </div>
+                <div class="text-right">
+                    <div class="suBtn">
+                        <button class="btn btn-large btn-profile p-3 mt-3" type="submit" id="sub"
+                            value="Create Profile"> Submit </button><br>
+                            <a href="../editProfile/editProfile.html">or edit your profile</a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div>
+            <footer>
+                <p> &copy;PregAlat <br> All rights reserved </p>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="js.js"></script>
+        <title>PregAlat | Signup</title>
+    </head>
+
+    <body>
+        <div class='signupwrapper'>
+            <div class="signupPage p-5">
+                <div class="text-center mb-2">
+                    <a href="../index.html"><img src="../assets/images/pa-logo.png" alt=""></a>
+                </div>
+                <h5 class="signupHead text-center fff">Create an Account</h5>
+                <h6 class="text-center mb-4 fff">Let us Journey with you.</h6>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <input class="form-control p-3" name='firstname' id="firstname" type="text" placeholder="First Name" onfocus="errhandling()" onkeypress="return /[a-z]/i.test(event.key)"/></div>
+
+                    <div class="errwrap my-3">
+                        <span id="errorFirst" class="error hide">Enter your firstname with more than 3
+                                                    characters.
+                        </span>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control p-3" name='lastname' id='lastname' type="text" placeholder="Last Name" onfocus="errhandling()" onkeypress="return /[a-z]/i.test(event.key)"/></div>
+
+
+                    <div class="errwrap my-3">
+                        <span id="errorLast" class="error hide">Enter your Lastname with 3 or more characters.</span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control p-3" name='email' id='email' type="email" placeholder="Email Address" onfocus="errhandling()"/></div>
+
+
+                    <div class="errwrap my-3">
+                        <span id="errorEmail" class="error hide">Enter a valid email</span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control p-3" name='password' id="password" type="password" placeholder="Password" onfocus="errhandling()"/></div>
+
+
+                    <div class="errwrap my-3">
+                        <span id="errorPass" class="error hide">This is not the expected Password</span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control p-3" name='password2' id='password2' type="password" placeholder="Confirm password" onfocus="errhandling()"/>
+                    </div>
+
+
+                    <div class="errwrap my-3">
+                        <span id="errorPass2" class="error hide">Passwords do not match</span>
+                    </div>
+                    <button class="btn btn-block btn-signup p-3 my-4" type="button" name="signup" onclick="handleSubmit()">Join</button>
+                    <div class="errwrap">
+                        <span id="error" class="error hide">Invalid Detail supply</span>
+                    </div>
+                    <div class="font-12 text-center">
+                        <a href="../LogIn/index.html" class="fff text-center">
+                            Already have an account? Signin
+
+                        </a>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <footer class="fff mt-5 pt-5" style="text-align:center; width:100%">
+            copyright @PregAlat 2020
+        </footer>
+
+    </body>
+
+</html>

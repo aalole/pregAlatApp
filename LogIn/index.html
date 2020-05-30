@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+        <title>PregAlat | Login</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link
+        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <!-- css link -->
+        <link
+        rel="stylesheet" href="style.css"/>
+        <!-- javascript link -->
+        <script src="js.js"></script>
+    </head>
+
+    <body>
+        <div class='loginwrapper'>
+            <div class="loginPage p-5">
+            <div class="text-center mb-2"> <a href="../index.html"><img src="images/pa-logo.png" alt=""></a> </div>
+
+                <h5 class="signupHead text-center fff">Welcome back</h5>
+                <h6 class="text-center mb-4 fff">Sign in to continue</h6>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <input class="form-control p-3" name='email' id='email' type="text" placeholder="Email Address" onfocus="errhandling()"/>
+                    </div>
+
+                    <div class="errwrap my-3">
+                        <span id="errorUser" class="error hide">Enter Email Address</span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control p-3" name='password' id='password' type="password" placeholder="Password" onfocus="errhandling()"/>
+                    </div>
+
+                    <div class="errwrap">
+                        <span id="errorPass" class="error hide">Enter Password.</span>
+                    </div>
+                    <div class="text-right my-3 font-12 fff">
+                        <a href="forgotpassword.html" class="fff">Forgot Password?
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-block btn-login p-3 my-4" type="button" name="login" onclick="handleSubmit()">Login</button>
+                    </div>
+
+                    <div class="errwrap">
+                        <span id='error' class='error hide'>Invalid login</span>
+                    </div>
+                </form>
+                <div class="text-right font-12 fff text-center">
+                    <a href="../SignUp/index.html" class="fff signlink">Don't have an account? Join us
+                    </a>
+                </div>
+
+            </div>
+            <footer class="fff" style="position:absolute;bottom:0px;text-align:center; width:100%">
+                copyright @PregAlat stratng 2020
+            </footer>
+        </div>
+    </body>
+
+</html>

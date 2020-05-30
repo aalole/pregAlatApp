@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 244, 244);
+    margin: 0em;
+    font-family: U8, sans-serif !important;
+}
+#navbar{
+    padding: 0 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar li a:hover{
+    color: #031C32 ;
+}
+ header{
+     background-color:  #B3365B;
+     text-align: center;
+     width: 100%;
+     font-family: 'Montserrat', sans-serif;
+     padding-bottom: 4em;
+     position: relative;
+     padding-top: 1em;
+ }
+ .logoHeader img {
+     height: 3em;
+     width: 3em;
+     border-radius: 50%;
+ }
+ #navbar li { 
+     position: relative;
+     float: right;
+     padding-right: 0.8em;
+     list-style: none;
+    text-decoration: none;
+    color: #031C32;  
+ }
+ footer {
+    background-color:  #B3365B;
+    text-align: center;
+    color:   #fff;
+    width: 100%;
+    letter-spacing: 0em;
+    position: absolute;
+    bottom: -10em;
+    padding-bottom: -2em;
+    padding-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+.logoHeader{
+    float: left;
+    height: 100%;
+    position: relative;
+    bottom: 0.5em;
+}
+.onboard {
+    text-align: center;
+    margin-top: -1em;
+}
+.btn-profile{
+    background-color: #B3365B;
+        color: #fff;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+}
+.fff{
+    color: #fff !important;
+}
+.formSection{
+    height: 90vh;
+}
+.formCard{
+    width: 400px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        background-color: rgb(3, 28, 50, 0.8);
+        text-align: left;
+        justify-content: center;
+}
+
+    input:focus {
+      outline: none !important;
+    }
+    .form-control:focus{
+        outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    }
+    .btn:focus{
+        outline: none !important;
+        box-shadow: none;
+    }
+    ::placeholder {
+      color: rgb(200, 200, 198, 1) !important;
+      font-size: 1em;
+      font-weight: 200;
+    }
+    button:hover {
+        box-shadow: 1px;
+        color: rgb(250, 252, 251) !important;
+        background-color: rgb(24, 175, 10);
+        font-weight: 600;
+    }
+    input{
+        text-overflow: ellipsis;  
+    }
+    @media screen and (max-width: 320px) {
+        .formCard{
+            width: 300px;
+            margin-top: 15px;
+        }
+        footer {
+            background-color:  #B3365B;
+            text-align: center;
+            color:   #fff;
+            width: 100%;
+            letter-spacing: 0em;
+            position: absolute;
+            bottom: -14.5em;
+            padding-bottom: -2em;
+            padding-top: 1em;
+            font-family: 'Montserrat', sans-serif;
+        }
+        input[placeholder]{
+            text-overflow: ellipsis;  
+        }
+        select{
+            text-overflow: ellipsis;  
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .formCard{
+            width: 300px;
+            margin-top: 15px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        .formCard{
+            width: 300px;
+            margin-top: 15px;
+        }
+    }
+    @media screen and (max-width: 299px) {
+        .formCard{
+            width: 200px;
+            margin-top: 45px;
+        }
+        .btn-profile{
+            background-color: #B3365B;
+                color: #fff;
+                width: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+        }
+    }
+    @media screen and (max-width: 250px) {
+        .formCard{
+            width: 200px;
+            margin-top: 40px;
+        }
+        header {
+            padding-bottom: 6em;
+        }
+        .btn-profile{
+            background-color: #B3365B;
+                color: #fff;
+                width: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+        }
+    }
+   

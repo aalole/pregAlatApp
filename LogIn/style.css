@@ -1,0 +1,116 @@
+body {
+    /* width: 100% ; */
+    line-height: 1.4;
+    font-family: U8, sans-serif !important;
+    background-image: url(images/pregsports.jpg) !important;
+    background-size: 100% 100%!important;
+}
+.form-control{
+height: 40px !important;
+}
+.loginPage {
+    width: 350px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+background-color: rgb(3, 28, 50, 0.5);
+    text-align: left;
+}
+input:focus {
+  outline: none !important;
+}
+.form-control:focus{
+    outline: none !important;
+border: none !important;
+box-shadow: none;
+}
+
+::placeholder {
+  color: rgb(200, 200, 198, 1) !important;
+  font-size: 1em;
+  font-weight: 200;
+}
+input {
+    height: 40px;
+    font-size: 1em;
+    background-color: #f7f7f8 !important;
+    border: none !important;
+    color: #fff;
+}
+.btn-login {
+    background-color: #B3365B;
+    color: #fff;
+}
+.font-12{
+   font-size: 12px;
+}
+.fff{
+   color: #fff !important
+}
+/* border color on error */
+.errborder{
+border: 1px solid #ff3361 !important;
+}
+button:hover {
+    box-shadow: 1px;
+    color: rgb(252, 250, 250) !important;
+    background-color: rgb(24, 175, 10);
+    font-weight: 600;
+}
+.btn:focus{
+    outline: none !important;
+    box-shadow: none;
+
+}
+a:link {
+    color: #B3365B;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:hover {
+   opacity: 0.8;
+    background-color: transparent;
+            text-decoration: none
+
+}
+
+a:active {
+    color: rgb(0, 55, 107);
+    background-color: transparent;
+    text-decoration: underline
+}
+
+.errwrap {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.error {
+    font-size: 12px;
+    margin: auto;
+    color: #ff3361;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+} 
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid green
+
+}

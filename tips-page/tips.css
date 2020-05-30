@@ -1,0 +1,44 @@
+.tips-container{
+    padding: 40px 20px 20px 20px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.tips-center-getting-preg,
+.tip-center-maintain-preg{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* font-family: Helvetica, sans-serif; */
+    font-weight: 200!important;
+}
+.tips-center-getting-preg h3,
+.tip-center-maintain-preg h3{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+.tips-list li{
+    padding-top: 15px;
+}
+.tips-list li h4,
+.tips-list li p{
+    line-height:1.5;
+    font-weight: normal!important;
+}
+.tips-list li h4 a,
+.tip-center-maintain-preg li h4 a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: dodgerblue
+}
+.tips-list li h4 a:hover,
+.tip-center-maintain-preg li h4 a:hover{
+    color: #b33658;
+}
+.read-more{
+    display: block;
+}
+.text-hidden{
+    display: none;
+}
+

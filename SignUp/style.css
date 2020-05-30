@@ -1,0 +1,118 @@
+body {
+    width: 99%;
+    line-height: 1.4;
+    font-family: U8, sans-serif !important;
+    background-image: url(../assets/images/pregsports.jpg) !important;
+    background-size: 100% 100%!important;
+
+}
+.fff{
+color: #fff !important;
+}
+.errborder{
+border: 1px solid #ff3361 !important;
+}
+
+.signupPage {
+    width: 350px;
+    margin: auto;
+    margin-top: 100px !important;
+    border-radius: 10px;
+background-color: rgb(3, 28, 50, 0.5);
+    text-align: left;
+    vertical-align: middle !important;
+}
+
+.font-10{
+  font-size: 10px;
+}
+input {
+    height: 40px !important;
+    font-size: 1em;
+    background-color: #f7f7f8 !important;
+    border: none !important;
+    color: #fff;
+}
+input:focus {
+  outline: none !important;
+}
+.form-control:focus{
+    outline: none !important;
+border: none !important;
+box-shadow: none;
+}
+.btn:focus{
+    outline: none !important;
+    box-shadow: none;
+
+}
+::placeholder {
+  color: rgb(200, 200, 198, 1) !important;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+
+button:hover {
+    box-shadow: 1px;
+    color: rgb(250, 252, 251) !important;
+    background-color: rgb(24, 175, 10) !important;
+    font-weight: 600;
+}
+
+a:link {
+    color: #B3365B;;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline
+}
+.font-12{
+font-size: 12px;
+}
+a:hover {
+   opacity: 0.8;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+a:active {
+    color: rgb(0, 55, 107);
+    background-color: transparent;
+    text-decoration: underline
+}
+
+.hide {
+    display: none;
+}
+
+.errWrap {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+.error {
+    font-size: 12px;
+    margin: auto;
+    color: #ff3361;
+  
+    
+}
+.btn-signup{
+    background-color: #B3365B !important;
+    color: #fff !important;
+}
+  
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid green !important
+
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+    <link rel="stylesheet" href="./assets/stylesheets/all.css">
+
+    <script src="./assets/js/all.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-btn-wrapper">
+            <a href="index.html"><img class="logo" src="./assets/images/pa-logo.png" alt=""></a>
+            <div class="togle-btn" id="togle-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <nav class="header-nav hidden" id="header-nav">
+            <ul id="header-ul" class="header-ul">
+                <!-- class of hidden would be added to this ul later -->
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-Us/about.html">About</a></li>
+                <li><a href="./contactUs/contact.html">contact</a></li>
+                <li><a href="/dashboard/dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <section class="teaser" id="teaser">
+                <div class="teaser-img">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="./assets/images/preg-slide-1.jpg" style="width:100%">
+                            <div class="text">Your Journey to become a mother</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="./assets/images/preg-1-removebg-preview.png" style="width:100%">
+                            <div class="text">Pregnancy just got easier and better</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="./assets/images/preg-slide-3.jpg" style="width:100%">
+                            <div class="text">You don't have to remember everything by yourself</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="./assets/images/preg-slide-4.jpg" style="width:100%">
+                            <div class="text">Stay healthy with your unborn child</div>
+                        </div>
+                        <!-- <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="./assets/images/preg-slide-4.jpg" style="width:100%">
+                            <div class="text">You don't have to remember everything by yourself</div>
+                        </div> -->
+
+                        <div class="prevNdNext">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <!-- <span class="dot" onclick="currentSlide(5)"></span> -->
+                    </div>
+                </div>
+                <div class="teaser-text">
+                    <h1>Welcome to pregAlat!</h1>
+                    <p> You have made the right choice to start this incredible journey.
+                        To help you along, we want to keep you company as your baby grows, by providing you with
+                        relevant information with respect to your gestational age. We will help you track your
+                        <strong>todos and schedules, so
+                            you
+                            don't have to worry.</strong>
+                        ALso, we will provide you with relevant information about your weight gain
+                        and nutrition, what's safe during pregnancy and what's not, pregnancy stages,
+                        labor, delivery and more.</p>
+                </div>
+            </section>
+            <section class="services" id="services">
+                <h1>Our Services</h1>
+                <div class="services-wrapper">
+                    <div class="services-first">
+                        <div class="service service1">
+                            <a href="./SignUp/index.html">
+                                <h3>due date calculator</h3>
+                                <div class="date-illustrator">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <p>Are you curious of your gestational age? want to know your <b>Expected Date of
+                                        Delivery?
+                                        Check it here</b></p>
+                            </a>
+                        </div>
+                        <div class="service service2">
+                            <a href="./SignUp/index.html">
+                                <h3>Health and medical related issues here</h3>
+                                <div class="health-illustrator">
+                                    <i class="fas fa-baby"></i>
+                                    <!-- <img src="./assets/images/undraw_progress_overview_2dik.svg" alt=""> -->
+                                </div>
+                                <p>Curious of your health status? Feel like booking an appointment with medics? here you
+                                    are
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services-second">
+                        <div class="service service3">
+                            <a href="./SignUp/index.html">
+                                <h3>Todos and reminders here</h3>
+                                <div class="todo-illustrator">
+                                    <i class="far fa-list-alt"></i>
+                                </div>
+                                <p>You don't have to remember your list of daily deliverables We will remind you here
+                                </p>
+                            </a>
+                        </div>
+                        <div class="service service4">
+                            <a href="./tips-page/tips.html">
+                                <h3>Tips and lifestyles here</h3>
+                                <div class="fitness-illustrator">
+                                    <i class="fas fa-bell-slash"></i>
+                                </div>
+                                <p>Want to stay strong and healthy throughout your ante-natal period? check in here</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <small>&copy; pregAlat 2020</small>
+        <nav class="footer-nav" id="footer-nav">
+            <ul id="footer-ul" class="footer-ul">
+                <!-- class of hidden would be added to this ul later -->
+                <li><a href="/">Home</a></li>
+                <li><a href="./about-Us/about.html">About</a></li>
+                <li><a href="./contactUs/contact.html">contact</a></li>
+                <li><a href="/dashboard/dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
